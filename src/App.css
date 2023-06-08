@@ -1,0 +1,80 @@
+
+.container {
+  background-color: antiquewhite;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-app {
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  padding:24px;
+}
+
+.todo-inputs {
+  display: flex;
+  margin: 24px 0;
+}
+
+.todo-inputs input {
+  flex-grow: 1;
+  padding: 8px 12px;
+  font-size: 1.2rem;
+}
+
+.todo-inputs button {
+  background-color: green;
+  color: white;
+  outline: none;
+  border: 0;
+  padding: 0 12px;
+  border-radius: 0 8px 8px 0;
+  width: 120px;
+}
+
+.todo-inputs button:hover {
+  background-color: rgb(1, 81, 1);
+  cursor: pointer;
+}
+
+.todo-items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+
+.todo-item button {
+  border: 0;
+  background-color: transparent;
+  padding: 8px;
+  cursor: pointer;
+  color: black;
+}
+
+.todo-item svg {
+  width: 24px;
+  height: 24px;
+}
+
+.button {
+  background-color: transparent;
+  padding: 4px;
+  font-size: 1.2rem;
+  color: red;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
